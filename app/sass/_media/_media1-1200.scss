@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px) {
+
+
+  // home_slider
+  // ----------------------------------------------------------
+  #home_slider {
+    .slide {
+      padding: 50px 0;
+      height: 480px;
+      font-size: 25px;
+    }
+  }
+
+
+
+  // img_blocks
+  // ----------------------------------------------------------
+  .img_blocks {
+    .top-row {
+      .item {
+        .img {
+          height: 270px;
+        }
+        .bg {
+          height: 270px;
+        }
+      }
+    }
+  }
+
+
+
+  // instagram
+  // ----------------------------------------------------------
+  .instagram {
+    .insta-row {
+      .item {
+        width: 16.6666%;
+      }
+    }
+  }
+
+
+
+  // footer
+  // ----------------------------------------------------------
+  footer {
+    ul {
+      width: 150px;
+    }
+    ul.smaller {
+      width: 100px;
+    }
+    .pull-left {
+      float: none !important;
+    }
+    .pull-right {
+      float: none !important;
+      text-align: center;
+    }
+    .social {
+      margin-top: 20px;
+      text-align: center;
+      .soc {
+        float: none;
+        margin: 0 5px;
+        display: inline-block;
+      }
+    }
+    .copy {
+      margin-top: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

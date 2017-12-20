@@ -1,0 +1,23 @@
+
+
+@import '10_reset';
+
+@import '20_fonts';
+
+@import '30_vars';
+
+@import '40_base';
+
+
+@import '50_all';
+
+
+
+
+
+// Всегда в конце
+@import "_media/media1-1200";
+@import "_media/media2-992";
+@import "_media/media3-768";
+@import "_media/media4-480";
+@import "_media/media5-320";

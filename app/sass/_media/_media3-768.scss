@@ -1,0 +1,187 @@
+@media only screen and (max-width: 768px) {
+
+  // top_message
+  // ----------------------------------------------------------
+  .top_message {
+    padding-right: 50px;
+    .read-more {
+      margin: 0;
+    }
+    .close-this {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+  }
+
+  // header
+  // ----------------------------------------------------------
+  .header {
+    padding: 0;
+    .profile, .login {
+      margin-right: 20px;
+    }
+    .logo-sm {
+      display: block;
+      width: 30px;
+      height: 35px;
+      position: absolute;
+      margin-top: -7px;
+      left: 50%;
+      margin-left: -15px;
+    }
+    .header-mobile {
+      padding: 20px 15px;
+    }
+  }
+
+  // > xs fix
+  // ----------------------------------------------------------
+  #mobile-nav {
+    display: none !important;
+  }
+  #mobile-search {
+    display: none !important;
+  }
+  body {
+    width: 100% !important;
+  }
+
+  // home_slider
+  // ----------------------------------------------------------
+  #home_slider {
+    .slide {
+      padding: 25px 0;
+      height: 300px;
+      text-align: center;
+      font-size: 25px;
+      .large, .blue {
+        font-size: 25px;
+      }
+      .blue {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // img_blocks
+  // ----------------------------------------------------------
+  .img_blocks {
+    .top-row {
+      .item {
+        .img {
+          height: 240px;
+        }
+        .bg {
+          height: 240px;
+        }
+        span {
+          height: auto
+        }
+      }
+    }
+    .row-bot {
+      .item-lg {
+        .img {
+          height: 460px;
+        }
+        .bg {
+          height: 460px;
+        }
+      }
+      .item-sm-1 {
+        .img {
+          height: 200px;
+        }
+        .bg {
+          height: 200px;
+        }
+      }
+      .item-sm-2 {
+        .img {
+          height: 230px;
+        }
+        .bg {
+          height: 230px;
+        }
+      }
+    }
+  }
+
+  // instagram
+  // ----------------------------------------------------------
+  .instagram {
+    h2 {
+      img {
+        display: block;
+        margin: 5px auto;
+      }
+    }
+
+  }
+
+
+  // subscribe
+  // ----------------------------------------------------------
+  .subscribe {
+    text-align: left;
+    padding: 50px 0;
+    .text {
+      font-size: 24px;
+    }
+    .form-group {
+      background: url(../img/icon_subscribe.png) no-repeat top 19px left;
+      .form-control {
+        margin-right: 0;
+        width: 100%;
+        max-width: 300px;
+      }
+      .btn {
+        margin-top: 30px;
+        margin-left: -55px;
+      }
+    }
+  }
+
+
+
+
+
+
+
+  // footer
+  // ----------------------------------------------------------
+  footer {
+    ul {
+      width: 50%;
+      margin-right: 0;
+      padding-right: 15px;
+      li {
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+    ul.no-padding {
+      padding-right: 0;
+    }
+    .number {
+      margin-top: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

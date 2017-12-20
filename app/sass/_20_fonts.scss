@@ -1,0 +1,5 @@
+@import "_a_mixins/font-face";
+
+@include font-face("MyriadProRegular", "../fonts/MyriadProRegular/MyriadProRegular");
+@include font-face("MyriadProBold", "../fonts/MyriadProBold/MyriadProBold");
+@include font-face("MyriadProItalic", "../fonts/MyriadProItalic/MyriadProItalic");
